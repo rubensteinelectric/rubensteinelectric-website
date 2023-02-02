@@ -1,7 +1,7 @@
 function toggleBanner(num) {
     const arr = ["rubenstein_1024.jpg", "generator_1024_80.jpg"];
     const dv = document.getElementById('banner');
-    dv.style.background = "url(images/" + arr[num] + ")";
+    dv.style.background = "url('/assets/images/" + arr[num] + "')";
     const ul = document.getElementById('banner_abstract');
     const li = ul.getElementsByTagName('li');
 
