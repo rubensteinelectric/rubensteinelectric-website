@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background: url(/assets/images/bg_rs.jpg) repeat 0 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#site_wrapper {
+  width: 1024px;
+  margin: 0 auto 0 auto;
+  background-color: #FFFFFF;
+}
+
+#header_strip {
+  position: relative;
+  height: 51px;
+  padding: 5px;
+  text-align: right;
+  border-bottom: solid 1px #DDDDDD;
+  text-shadow: 0 1px 0 #FFFFFF;
+  background: #EEEEEE;
+  border-bottom: 5px solid #FFFFFF;
+}
+
+#header_strip img#logo {
+  position: absolute;
+  left: 5px;
+}
+
+#header_strip #contact_number {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 51px;
+  margin: 8px 10px 0 0;
+}
+
+#header_strip #contact_number a:before {
+  content: '\2706';
+  margin-right: 10px;
+  font-size: 24pt;
+  vertical-align: middle;
+}
+
+#header_strip #contact_number a {
+  text-decoration: none;
+  font: bold 18pt Hevletica, Arial, sans-serif;
+  color: #8E3749;
+}
+
+#header_strip #contact_email {
+  margin-right: 250px;
+  padding-top: 15px;
+}
+
+#header_strip #contact_email a:before {
+  content: '\2709';
+  vertical-align: top;
+  color: #8E3749;
+  margin-right: 5px;
+  font-size: 20pt;
+}
+
+#header_strip #contact_email a img {
+  border: none 0;
+}
+
+div#page_content {
+}
+
+div#page_wrapper {
+  margin: 20px 20px 0 20px;
+  font: 12pt Helvetica, Arial, sans-serif;
+  color: #471C25;
+}
+
+div#page_wrapper:after {
+  content: "\00A0";
+  clear: both;
+  display: block;
+}
+
+div#page_wrapper h5 {
+  font: bold 18pt Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+div#page_wrapper div.page_block h6 {
+  font: bold 12pt Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+div#page_wrapper p {
+  font: 12pt Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+#footer_strip {
+  width: 1024px;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  background: rgba(10, 4, 0, 0.15) repeat 0 0;
+  display: block;
+  border-top: 5px solid #8E3749;
+}
+
+#footer_strip ul.menubar {
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  color: #240E12;
+}
+
+#footer_strip ul.menubar:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#footer_strip ul.menubar li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 24%;
+}
+
+#footer_strip ul.menubar li a {
+  text-decoration: none;
+  font: 14pt Verdana, Geneva, sans-serif;
+  display: block;
+  color: #FFFFFF;
+}
+
+#footer_strip ul.menubar li a:before {
+}
+
+#footer_strip ul.menubar li ul.menu {
+  margin: 10px 0 0 0;
+  padding: 0;
+  color: #240E12;
+}
+
+#footer_strip ul.menubar li ul.menu li {
+  float: none;
+  width: auto;
+  margin: 0 0 5px 0;
+  padding: 0;
+  display: list-item;
+  list-style: none;
+  color: #240E12;
+}
+
+#footer_strip ul.menubar li ul.menu li a {
+  font: 12pt Helvetica, Arial, sans-serif;
+  color: #99908A;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+#footer_strip ul.menubar li ul.menu li a:before {
+  content: "\203A";
+  margin-right: 5px;
+}
+
+#index_page #banner {
+  background: url('/assets/images/rubenstein_1024.jpg') no-repeat 0 0;
+  width: 1024px;
+  height: 340px;
+}
+
+#index_page ul#banner_menu {
+  font: 20pt Helvetica, Arial, sans-serif;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: url('/assets/images/bg-bannerInfo-left.png') no-repeat 0 0;
+  width: 654px;
+  height: 340px;
+}
+
+#index_page ul#banner_menu:before {
+  content: "\00A0";
+  display: block;
+  clear: both;
+}
+
+#index_page ul#banner_menu li {
+  display: block;
+  padding: 5px;
+  margin: 0 0 20px 0;
+  text-align: right;
+  background-color: rgba(142, 55, 73, 0.95);
+}
+
+#index_page ul#banner_menu li a {
+  text-decoration: none;
+  color: #FFFFFF; /*color: #8E3749;*/
+}
+
+#index_page ul#banner_menu li#banner_abstract_wrapper {
+  width: 350px;
+  padding: 0 0 0 40px;
+  margin: 20px 0 0 0;
+  background-color: transparent;
+}
+
+#index_page ul#banner_abstract {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font: 12pt Georgia, Times New Roman, serif;
+  color: #FFFFFF;
+  background: none;
+}
+
+#index_page ul#banner_abstract li {
+  display: none;
+  width: 400px;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+#installations_page div#page_wrapper div.page_block:first-child {
+  margin: 0;
+}
+
+#installations_page div#page_wrapper div.page_block {
+  margin-top: 40px;
+  clear: both;
+}
+
+#installations_page div#page_wrapper div.page_block div.gallery img {
+  width: 160px;
+  height: 120px;
+  border: none 0;
+}
+
+div#page_wrapper img.fl_r {
+  float: right;
+  margin-left: 20px;
+}
+
+div#page_wrapper img.fl_l {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+div#page_wrapper div.page_block p {
+  text-align: left;
+}
+
+div#page_wrapper div.page_block h5 {
+  text-align: left;
+}
+
+#electrical_content #banner {
+  background-color: #8E3749;
+  width: 1024px;
+}
+
+#electrical_content ul#banner_menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#electrical_content ul#banner_menu li:first-child {
+  border: none 0;
+}
+
+#electrical_content ul#banner_menu li {
+  border-left: solid 1px #FFFFFF;
+  display: inline-block;
+  padding: 5px 0 5px 0;
+  margin: 0;
+  text-align: center;
+  width: 33%;
+}
+
+#electrical_content ul#banner_menu li.bm_ac {
+  background-color: #FFFFFF;
+}
+
+#electrical_content ul#banner_menu li a {
+  font: 20pt Helvetica, Arial, sans-serif;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#electrical_content ul#banner_menu li.bm_ac a {
+  color: #8E3749;
+}
+
+#electrical_content ul#banner_menu li#banner_abstract_wrapper {
+  display: none;
+  width: 200px;
+  padding: 0;
+  margin: 0;
+}
