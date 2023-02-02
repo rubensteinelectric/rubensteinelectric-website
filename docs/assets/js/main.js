@@ -14,6 +14,9 @@ function toggleBanner(num) {
     }
 }
 
+const emailLink = document.querySelector('#email_link');
+emailLink.href = generateEmailLink();
+
 function generateEmailLink(){
     const ary = [   "a", "b", "c", "d", "e", "f", "g", "h", "i", "j",
                     "k", "l", "m", "n", "o", "p", "q", "r", "s", "t",
